@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Loja Online</h1>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="carrinho.html">Carrinho</a>
+    </nav>
+</header>
+
+<main>
+    <section class="promo-banner">
+        <h2>Promoções Imperdíveis!</h2>
+        <p>Confira as melhores ofertas da nossa loja.</p>
+    </section>
+
+    <section class="produtos-destaque">
+        <h3>Produtos em Destaque</h3>
+        <div class="produtos">
+            <div class="produto">
+                <img src="images/produto1.jpg" alt="Produto 1">
+                <h4>Produto 1</h4>
+                <p>R$ 99,99</p>
+                <a href="produtos.html">Ver mais</a>
+            </div>
+            <div class="produto">
+                <img src="images/produto2.jpg" alt="Produto 2">
+                <h4>Produto 2</h4>
+                <p>R$ 199,99</p>
+                <a href="produtos.html">Ver mais</a>
+            </div>
+            <div class="produto">
+                <img src="images/produto3.jpg" alt="Produto 3">
+                <h4>Produto 3</h4>
+                <p>R$ 149,99</p>
+                <a href="produtos.html">Ver mais</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Loja Online - Todos os direitos reservados</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Loja Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Loja Online</h1>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="carrinho.html">Carrinho</a>
+    </nav>
+</header>
+
+<main>
+    <section class="produtos-lista">
+        <h3>Todos os Produtos</h3>
+        <div class="produtos">
+            <div class="produto">
+                <img src="images/produto1.jpg" alt="Produto 1">
+                <h4>Produto 1</h4>
+                <p>R$ 99,99</p>
+                <button class="adicionar" onclick="adicionarAoCarrinho('Produto 1', 99.99)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="images/produto2.jpg" alt="Produto 2">
+                <h4>Produto 2</h4>
+                <p>R$ 199,99</p>
+                <button class="adicionar" onclick="adicionarAoCarrinho('Produto 2', 199.99)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="images/produto3.jpg" alt="Produto 3">
+                <h4>Produto 3</h4>
+                <p>R$ 149,99</p>
+                <button class="adicionar" onclick="adicionarAoCarrinho('Produto 3', 149.99)">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Loja Online - Todos os direitos reservados</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - Loja Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Loja Online</h1>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="carrinho.html">Carrinho</a>
+    </nav>
+</header>
+
+<main>
+    <section class="carrinho">
+        <h3>Seu Carrinho</h3>
+        <div id="itensCarrinho">
+            <p>Seu carrinho está vazio.</p>
+        </div>
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Loja Online - Todos os direitos reservados</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras - Loja Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Loja Online</h1>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="carrinho.html">Carrinho</a>
+    </nav>
+</header>
+
+<main>
+    <section class="carrinho">
+        <h3>Seu Carrinho</h3>
+        <div id="itensCarrinho">
+            <p>Seu carrinho está vazio.</p>
+        </div>
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Loja Online - Todos os direitos reservados</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Loja Online</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Loja Online</h1>
+    </div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="carrinho.html">Carrinho</a>
+    </nav>
+</header>
+
+<main>
+    <section class="checkout">
+        <h3>Finalizar Compra</h3>
+        <form id="formCheckout">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" required>
+            <label for="pagamento">Forma de pagamento:</label>
+            <select id="pagamento">
+                <option value="credito">Cartão de Crédito</option>
+                <option value="debito">Cartão de Débito</option>
+                <option value="boleto">Boleto</option>
+            </select>
+            <button type="submit">Confirmar Compra</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Loja Online - Todos os direitos reservados</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+<style>/* Resetando estilos e layout básico */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    header nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+    }
+    
+    header nav a:hover {
+        text-decoration: underline;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    
+    .produtos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .produto {
+        background-color: white;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .produto img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+    
+    .produto button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    
+    .produto button:hover {
+        background-color: #218838;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    
+    button {
+        padding: 10px 15px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+    
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    input, select {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    script// Função para adicionar produtos ao carrinho
+function adicionarAoCarrinho(produto, preco) {
+    let carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+    carrinho.push({ produto, preco });
+    localStorage.setItem('carrinho', JSON.stringify(carrinho));
+    alert('Produto adicionado ao carrinho!');
+}
+
+// Função para mostrar os itens do carrinho
+function exibirCarrinho() {
+    const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+    const carrinhoElement = document.getElementById('itensCarrinho');
+    if (carrinho.length === 0) {
+        carrinhoElement.innerHTML = '<p>Seu carrinho está vazio.</p>';
+    } else {
+        carrinhoElement.innerHTML = carrinho.map(item => `
+            <p>${item.produto} - R$ ${item.preco}</p>
+        `).join('');
+    }
+}
+
+// Função para finalizar a compra
+function finalizarCompra() {
+    const carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+    if (carrinho.length === 0) {
+        alert('Seu carrinho está vazio!');
+    } else {
+        alert('Compra finalizada com sucesso!');
+        localStorage.removeItem('carrinho');
+    }
+}
+
+// Carregar carrinho na página de carrinho
+if (window.location.href.includes('carrinho.html')) {
+    exibirCarrinho();
+}
+</style>
